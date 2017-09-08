@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import moment from 'moment';
 
 import EndPoints from '../Api'
 
@@ -140,9 +141,12 @@ class App extends Component {
                     </div>
                 </li>
                 <ol className="breadcrumb">
+
+                    <span htmlFor="task" className="col-md-6 control-label">
+                        <b>Date:</b> {moment(task.date_create).format("DD/MM/YYYY")}</span>
                     <b>Author</b>: {task.author}
                 </ol>
-                    <span className="divider" ></span>
+              ntrol <span className="divider" ></span>
             </span>
             ))
         )

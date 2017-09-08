@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2afe3dbb-263b-42b7-8cf3-841a8557d384" name="Default" comment="" />
+    <list default="true" id="2afe3dbb-263b-42b7-8cf3-841a8557d384" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App/App.js" afterPath="$PROJECT_DIR$/src/App/App.js" />
+    </list>
     <ignored path="opratel_todo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,64 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="286" column="29" selection-start-line="286" selection-start-column="29" selection-end-line="286" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.77816904">
+              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding>
+                <element signature="e#147#305#0" expanded="false" />
                 <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#App#0" expanded="false" />
-                <element signature="n#!!block;n#getTask#0;n#App#0" expanded="false" />
-                <element signature="e#699#750#0" expanded="false" />
+                <element signature="e#728#779#0" expanded="false" />
                 <element signature="n#!!block;n#saveTask#0;n#App#0" expanded="false" />
-                <element signature="e#847#1118#0" expanded="false" />
-                <element signature="e#923#1069#0" expanded="false" />
-                <element signature="e#952#1051#0" expanded="false" />
-                <element signature="e#1149#1200#0" expanded="false" />
+                <element signature="e#876#1147#0" expanded="false" />
+                <element signature="e#952#1098#0" expanded="false" />
+                <element signature="e#981#1080#0" expanded="false" />
+                <element signature="e#1178#1229#0" expanded="false" />
                 <element signature="n#!!block;n#deleteTask#0;n#App#0" expanded="false" />
-                <element signature="e#1295#1381#0" expanded="false" />
-                <element signature="e#1412#1463#0" expanded="false" />
-                <element signature="n#!!block;n#updateTask#0;n#App#0" expanded="false" />
-                <element signature="e#1571#1812#0" expanded="false" />
-                <element signature="e#1603#1763#0" expanded="false" />
-                <element signature="e#1843#1894#0" expanded="false" />
-                <element signature="e#1934#2001#0" expanded="false" />
-                <element signature="e#2033#2217#0" expanded="false" />
-                <element signature="e#2055#2167#0" expanded="false" />
-                <element signature="e#2245#2438#0" expanded="false" />
-                <element signature="e#2269#2429#0" expanded="false" />
-                <element signature="e#2566#3671#0" expanded="false" />
-                <element signature="e#2788#3649#0" expanded="false" />
-                <element signature="e#2854#3089#0" expanded="false" />
-                <element signature="e#3114#3353#0" expanded="false" />
-                <element signature="e#3378#3621#0" expanded="false" />
-                <element signature="e#3688#3786#0" expanded="false" />
-                <element signature="e#3917#4509#0" expanded="false" />
-                <element signature="e#4243#4502#0" expanded="false" />
-                <element signature="e#4269#4428#0" expanded="false" />
-                <element signature="e#4653#4890#0" expanded="false" />
+                <element signature="e#1324#1410#0" expanded="false" />
+                <element signature="e#1441#1492#0" expanded="false" />
+                <element signature="e#1872#1923#0" expanded="false" />
+                <element signature="e#1963#2030#0" expanded="false" />
+                <element signature="e#2084#2196#0" expanded="false" />
+                <element signature="e#2595#3700#0" expanded="false" />
+                <element signature="e#2817#3678#0" expanded="false" />
+                <element signature="e#2883#3118#0" expanded="false" />
+                <element signature="e#3143#3382#0" expanded="false" />
+                <element signature="e#3407#3650#0" expanded="false" />
+                <element signature="e#5656#5726#0" expanded="false" />
+                <element signature="e#5789#5843#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.113902844">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Api/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +68,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -101,8 +80,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App/App.css" />
         <option value="$PROJECT_DIR$/src/Api/index.js" />
-        <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/App/App.js" />
       </list>
     </option>
   </component>
@@ -164,6 +143,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opratel_todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -206,6 +235,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -243,22 +277,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -292,7 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -328,9 +361,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.113902844">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4264214">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
@@ -338,49 +379,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="286" column="29" selection-start-line="286" selection-start-column="29" selection-end-line="286" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.77816904">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
+            <element signature="e#147#305#0" expanded="false" />
             <element signature="n#!!block;n#constructor#0;n#App#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#App#0" expanded="false" />
-            <element signature="n#!!block;n#getTask#0;n#App#0" expanded="false" />
-            <element signature="e#699#750#0" expanded="false" />
+            <element signature="e#728#779#0" expanded="false" />
             <element signature="n#!!block;n#saveTask#0;n#App#0" expanded="false" />
-            <element signature="e#847#1118#0" expanded="false" />
-            <element signature="e#923#1069#0" expanded="false" />
-            <element signature="e#952#1051#0" expanded="false" />
-            <element signature="e#1149#1200#0" expanded="false" />
+            <element signature="e#876#1147#0" expanded="false" />
+            <element signature="e#952#1098#0" expanded="false" />
+            <element signature="e#981#1080#0" expanded="false" />
+            <element signature="e#1178#1229#0" expanded="false" />
             <element signature="n#!!block;n#deleteTask#0;n#App#0" expanded="false" />
-            <element signature="e#1295#1381#0" expanded="false" />
-            <element signature="e#1412#1463#0" expanded="false" />
-            <element signature="n#!!block;n#updateTask#0;n#App#0" expanded="false" />
-            <element signature="e#1571#1812#0" expanded="false" />
-            <element signature="e#1603#1763#0" expanded="false" />
-            <element signature="e#1843#1894#0" expanded="false" />
-            <element signature="e#1934#2001#0" expanded="false" />
-            <element signature="e#2033#2217#0" expanded="false" />
-            <element signature="e#2055#2167#0" expanded="false" />
-            <element signature="e#2245#2438#0" expanded="false" />
-            <element signature="e#2269#2429#0" expanded="false" />
-            <element signature="e#2566#3671#0" expanded="false" />
-            <element signature="e#2788#3649#0" expanded="false" />
-            <element signature="e#2854#3089#0" expanded="false" />
-            <element signature="e#3114#3353#0" expanded="false" />
-            <element signature="e#3378#3621#0" expanded="false" />
-            <element signature="e#3688#3786#0" expanded="false" />
-            <element signature="e#3917#4509#0" expanded="false" />
-            <element signature="e#4243#4502#0" expanded="false" />
-            <element signature="e#4269#4428#0" expanded="false" />
-            <element signature="e#4653#4890#0" expanded="false" />
+            <element signature="e#1324#1410#0" expanded="false" />
+            <element signature="e#1441#1492#0" expanded="false" />
+            <element signature="e#1872#1923#0" expanded="false" />
+            <element signature="e#1963#2030#0" expanded="false" />
+            <element signature="e#2084#2196#0" expanded="false" />
+            <element signature="e#2595#3700#0" expanded="false" />
+            <element signature="e#2817#3678#0" expanded="false" />
+            <element signature="e#2883#3118#0" expanded="false" />
+            <element signature="e#3143#3382#0" expanded="false" />
+            <element signature="e#3407#3650#0" expanded="false" />
+            <element signature="e#5656#5726#0" expanded="false" />
+            <element signature="e#5789#5843#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.113902844">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
