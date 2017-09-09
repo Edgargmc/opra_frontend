@@ -347,7 +347,8 @@ class App extends Component {
                                 <div className="row">
 
                                     <div className="col-md-2 col-md-offset-5">
-                                        Loading...
+                                        <div className="loader"></div>
+                                        <img src="" alt=""/>
                                     </div>
                                     <br/>
                                 </div>
