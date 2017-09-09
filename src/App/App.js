@@ -397,7 +397,7 @@ class App extends Component {
                                 <h1 className="vert-offset-top-0">Tasks:</h1>
                                 <ul className="list-group">
                                     {this.state.task.length > 0 && this.renderList() }
-                                    {!this.state.task.length && <span>Empty</span> }
+                                    {!this.state.task.length && <span style={{ textAlign: 'center' }}><h5> <i>no results</i></h5> </span> }
 
                                 </ul>
                             </div>
