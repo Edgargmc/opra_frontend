@@ -146,7 +146,7 @@ class App extends Component {
                         <b>Date:</b> {moment(task.date_create).format("DD/MM/YYYY")}</span>
                     <b>Author</b>: {task.author}
                 </ol>
-              ntrol <span className="divider" ></span>
+              <span className="divider" ></span>
             </span>
             ))
         )
@@ -227,7 +227,18 @@ class App extends Component {
         });
     };
 
-
+    cancelFilter = () => {
+        this.setState({
+            author: '',
+            description: '',
+            taskToUpdate: '',
+            id_status: '',
+            filterauthor: '',
+            statusFilter: '',
+            dateFilter: ''
+        });
+        this.getTask();
+    };
 
     renderFilter = () => {
         return(
@@ -253,12 +264,6 @@ class App extends Component {
                                id="finished" onChange={this.filterStatus}
                                checked={this.state.statusFilter  === 3}
                         />Finished</label>
-                    <div className="col-md-10 col-md-offset-2 text-right">
-                        <input type="submit"
-                               value="Search"
-                               className="btn btn-primary"
-                        />
-                    </div>
                 </div>
                 <div className="row">
                     <label className="radio-inline">
@@ -290,6 +295,22 @@ class App extends Component {
                         />
                         This Year</label>
                 </div>
+                <div className="col-md-10 col-md-offset-2 text-right" style={{display: 'flex'}}>
+                    <input
+                            type="button"
+                           value="Cancel"
+                           className="btn btn-primary"
+                           style={{marginTop: '10px', marginRight: '10px',     width: '88px'  }}
+                           onClick = {this.cancelFilter}
+                    />
+                    <input type="submit"
+                           value="Search"
+                           className="btn btn-primary"
+                           style={{marginTop: '10px',  marginRight: '10px'}}
+                    />
+
+                </div>
+                <div className="clearfix"></div>
             </form>
         )
     };
