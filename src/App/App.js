@@ -13,7 +13,8 @@ const INITIAL_STATE = {
     id_status: '',
     filterauthor: '',
     statusFilter: '',
-    dateFilter: ''
+    dateFilter: '',
+    httpRequest : false
 };
 
 
@@ -28,19 +29,27 @@ class App extends Component {
         this.getTask();
     }
 
+    controlLoading = (state) =>{
+        this.setState({httpRequest: state});
+    };
+
     getTask(){
+        this.controlLoading(true);
         EndPoints.getTasks()
             .then((response) => {
-                console.log(response);
                 let task = response.data;
                 this.setState({task});
+                this.controlLoading(false);
             })
             .catch((error) =>{
+                this.controlLoading(false);
                 console.log(error);
             });
+
     }
 
     saveTask(data){
+        this.controlLoading(true);
         EndPoints.setNewTask(data)
             .then((response) => {
                 console.log(response);
@@ -50,27 +59,32 @@ class App extends Component {
                         description: ''
                     }
                 });
-
                 this.getTask();
+                this.controlLoading(false);
             })
             .catch((error) =>{
+                this.controlLoading(false);
                 console.log(error);
             });
+
     }
 
     deleteTask(id){
+        this.controlLoading(true);
         EndPoints.deleteTask(id)
             .then((response) => {
-                console.log(response);
                 this.getTask();
+                this.controlLoading(false);
             })
             .catch((error) =>{
                 console.log(error);
+                this.controlLoading(false);
             });
+
     }
 
     updateTask(id, data){
-
+        this.controlLoading(true);
         EndPoints.updateTask(id, data)
             .then((response) => {
                 this.setState({
@@ -79,17 +93,17 @@ class App extends Component {
                     id_status: '',
                     taskToUpdate: ''
                 });
-
                 this.getTask();
+                this.controlLoading(false);
             })
             .catch((error) =>{
                 console.log(error);
+                this.controlLoading(false);
             });
 
     }
 
     toggleComplete = (id) => {
-        console.log('delete');
         this.deleteTask(id);
     };
 
@@ -202,15 +216,18 @@ class App extends Component {
             dateFilter:  this.state.dateFilter
         };
 
-        console.log(data);
+        this.controlLoading(true);
         EndPoints.filter(data)
             .then((response) => {
                 let task = response.data;
                 this.setState({task});
+                this.controlLoading(false);
             })
             .catch((error) =>{
+                this.controlLoading(false);
                 console.log(error);
             });
+
 
     };
 
@@ -297,11 +314,11 @@ class App extends Component {
                 </div>
                 <div className="col-md-10 col-md-offset-2 text-right" style={{display: 'flex'}}>
                     <input
-                            type="button"
-                           value="Cancel"
-                           className="btn btn-primary"
-                           style={{marginTop: '10px', marginRight: '10px',     width: '88px'  }}
-                           onClick = {this.cancelFilter}
+                        type="button"
+                        value="Cancel"
+                        className="btn btn-primary"
+                        style={{marginTop: '10px', marginRight: '10px',     width: '88px'  }}
+                        onClick = {this.cancelFilter}
                     />
                     <input type="submit"
                            value="Search"
@@ -324,11 +341,25 @@ class App extends Component {
                         <div>
                             {this.renderFilter()}
                         </div>
-                        <hr />
+                        <br/>
+                        {
+                            this.state.httpRequest === true ?
+                                <div className="row">
+
+                                    <div className="col-md-2 col-md-offset-5">
+                                        Loading...
+                                    </div>
+                                    <br/>
+                                </div>
+                                :
+                                <span></span>
+                        }
+
                         <div className="clearfix">
                             <div className="well">
                                 <form className="todoForm form-horizontal" onSubmit={this.sendTask}>
                                     <div className="form-group">
+
                                         <label htmlFor="task" className="col-md-2 control-label">Task</label>
                                         <div className="col-md-10">
                                             <input type="text" id="description"
