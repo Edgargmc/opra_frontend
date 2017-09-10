@@ -305,6 +305,13 @@ class App extends Component {
                         />
                         This Week</label>
                     <label className="radio-inline">
+                        <input type="radio" name="month"
+                               value="MONTH"
+                               id="week" onChange={this.filterDate}
+                               checked={this.state.dateFilter  === 'MONTH'}
+                        />
+                        This Month</label>
+                    <label className="radio-inline">
                         <input type="radio" name="year"
                                value="YEAR"
                                id="year" onChange={this.filterDate}
